@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Administrator\bin;F:\Git\mingw64\bin;F:\Git\usr\local\bin;F:\Git\usr\bin;F:\Git\usr\bin;F:\Git\mingw64\bin;F:\Git\usr\bin;C:\Users\Administrator\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;F:\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6;C:\Users\Administrator\AppData\Roaming\npm;G:\dev\jdk1.8.0_102\bin;G:\dev\jdk1.8.0_102\jre\bin;F:\Git\usr\bin\vendor_perl;F:\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Administrator\Desktop\vue3+ts\vite-project\node_modules\esbuild\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "vite-project",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc --noEmit && vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "element-plus": "^1.1.0-beta.17",
+      "vue": "^3.2.13",
+      "vue-router": "^4.0.11",
+      "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.9.0",
+      "typescript": "^4.4.3",
+      "vite": "^2.5.10",
+      "vite-plugin-components": "^0.13.3",
+      "vite-plugin-style-import": "^1.2.1",
+      "vue-tsc": "^0.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
